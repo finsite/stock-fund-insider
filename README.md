@@ -1,4 +1,4 @@
-# 🧱 template_python
+# 🧱 stock-fund-insider
 
 ## Overview
 

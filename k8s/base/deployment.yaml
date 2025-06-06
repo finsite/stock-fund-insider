@@ -1,0 +1,22 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stock-fund-insider
+  labels:
+    app: stock-fund-insider
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stock-fund-insider
+  template:
+    metadata:
+      labels:
+        app: stock-fund-insider
+    spec:
+      containers:
+      - name: stock-fund-insider
+        image: stock-fund-insider:latest
+        ports:
+        - containerPort: 8080
