@@ -1,8 +1,5 @@
-"""template_python
+"""stock-fund-insider
 
-This module serves as a template for Python-based repositories.
-"""
+Auto-generated init file with version."""
 
-__version__ = "0.2.9"
-
-__all__ = []
+__version__ = "0.1.0"

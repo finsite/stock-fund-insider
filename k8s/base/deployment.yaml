@@ -16,7 +16,7 @@ spec:
         app: stock-fund-insider
     spec:
       containers:
-      - name: stock-fund-insider
-        image: stock-fund-insider:latest
-        ports:
-        - containerPort: 8080
+        - name: stock-fund-insider
+          image: stock-fund-insider:latest
+          ports:
+            - containerPort: 8080
