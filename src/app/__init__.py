@@ -1,5 +1,6 @@
 """stock-fund-insider
 
-Auto-generated init file with version."""
+Auto-generated init file with version.
+"""
 
 __version__ = "0.1.2"
