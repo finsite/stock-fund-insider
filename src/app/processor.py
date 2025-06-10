@@ -17,8 +17,9 @@ def process_insider_data(data: dict[str, Any]) -> dict[str, Any]:
         dict[str, Any]: The enriched and validated data with standard fields.
 
     Notes:
-        This processor can be extended to flag unusual trading patterns, 
+        This processor can be extended to flag unusual trading patterns,
         summarize ownership changes, or correlate with price movements.
+
     """
     try:
         # Normalize trade type
